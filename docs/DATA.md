@@ -39,9 +39,8 @@
 # exercise_record
 | 필드        | 타입   | 단위       | 설명                     |
 | ----------- | ------ | ---------- | ------------------------ |
-| reg_dt      | string | YYYY-MM-DD | 기록일자, 하루 1건       |
+| reg_dt      | string | YYYY-MM-DD | 기록일자                 |
 | exercise_id | number |            | 운동 id                  |
-| weight_type | string | W/L        | 무게 종류(무거움/가벼움) |
 | weight      | number | kg         | 무게                     |
 | count_1     | number |            | 1세트 횟수               |
 | count_2     | number |            | 2세트 횟수               |

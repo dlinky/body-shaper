@@ -49,38 +49,52 @@
             "muscle": 37.7,
             "belly": 98,
             "chest": 97,
-            "shoulder": 50,
+            "shoulder": 118,
             "vfl": 8.6
         },
         {
             "type": "min",
-            "weight": 87.4,
-            "fat": 21.3,
+            "weight": 85.5,
+            "fat": 19.7,
             "muscle": 37.7,
-            "belly": 98,
+            "belly": 95,
             "chest": 97,
-            "shoulder": 50,
+            "shoulder": 118,
             "vfl": 8.6
         },
         {
             "type": "goal",
-            "weight": 87.4,
-            "fat": 21.3,
-            "muscle": 37.7,
-            "belly": 98,
+            "weight": 84.5,
+            "fat": 18.2,
+            "muscle": 38.0,
+            "belly": 93,
             "chest": 97,
-            "shoulder": 50,
-            "vfl": 8.6
+            "shoulder": 119,
+            "vfl": 8
         },
         {
             "type": "challenge",
-            "weight": 87.4,
-            "fat": 21.3,
-            "muscle": 37.7,
-            "belly": 98,
+            "weight": 83.5,
+            "fat": 17.1,
+            "muscle": 38.5,
+            "belly": 91,
             "chest": 97,
-            "shoulder": 50,
-            "vfl": 8.6
+            "shoulder": 120,
+            "vfl": 7
         }
-    ]
+    ],
+    "exercise_weight": {
+        "W": {
+            "init": 12,
+            "min": 12,
+            "current": 12,
+            "max": 12
+        },
+        "L": {
+            "init": 3,
+            "min": 3,
+            "current": 3,
+            "max": 3
+        }
+    }
 }

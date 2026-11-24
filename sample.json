@@ -1,0 +1,48 @@
+{
+    "body_record": [
+        {
+            "reg_dt": "2026-11-24",
+            "wakeup": "07:50",
+            "weight": 87.4,
+            "fat": 21.3,
+            "muscle": 37.7,
+            "belly": 98,
+            "chest": 97,
+            "shoulder": 118,
+            "vfl": 8.6
+        }
+    ],
+    "exercise_record": [
+        {
+            "reg_dt": "2026-11-24",
+            "exercise_id": 1,
+            "weight": 12,
+            "count_1": 8,
+            "count_2": 8,
+            "count_3": 8
+        },
+        {
+            "reg_dt": "2026-11-24",
+            "exercise_id": 2,
+            "weight": 12,
+            "count_1": 10,
+            "count_2": 10,
+            "count_3": 10
+        },
+        {
+            "reg_dt": "2026-11-24",
+            "exercise_id": 3,
+            "weight": 12,
+            "count_1": 15,
+            "count_2": 15
+        },
+        {
+            "reg_dt": "2026-11-24",
+            "exercise_id": 4,
+            "weight": 3,
+            "count_1": 12,
+            "count_2": 12,
+            "count_3": 12
+        }
+    ]
+}
