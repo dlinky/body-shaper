@@ -1,0 +1,86 @@
+{
+    "exercise_info": [
+        {
+            "id": 1,
+            "name": "인클라인 덤벨 프레스",
+            "target": "상부 대흉근, 전면 삼각근",
+            "howto": "베개 받쳐서 15~20° 경사 만들어서 위로 밀기.\n시작점 : 쇄골 3~5센치 아래\n도착점 : 팔이 직선이 되는 지점\n힘 주는 방법 : 위로 밀어준다는 느낌으로",
+            "weight_type": "W",
+            "min_count": 8,
+            "max_count": 12,
+            "set_count": 3
+        },
+        {
+            "id": 2,
+            "name": "원암 덤벨 로우",
+            "target": "광배근, 등",
+            "howto": "침대나 의자 받치고 뒤로 당기기",
+            "weight_type": "W",
+            "min_count": 10,
+            "max_count": 12,
+            "set_count": 3
+        },
+        {
+            "id": 3,
+            "name": "덤벨 슈러그",
+            "target": "상부 승모근",
+            "howto": "어깨를 귀 뒤쪽으로 끌어올리기\n팔꿈치 굽히지 않기\n목이 앞으로 오면 안됨",
+            "weight_type": "W",
+            "min_count": 15,
+            "max_count": 15,
+            "set_count": 2
+        },
+        {
+            "id": 4,
+            "name": "레터럴 레이즈",
+            "target": "측면 삼각근",
+            "howto": "살짝 앞쪽으로 올리기\n몸을 살짝 앞으로 기울이기\n",
+            "weight_type": "L",
+            "min_count": 12,
+            "max_count": 15,
+            "set_count": 3
+        }
+    ],
+    "goal": [
+        {
+            "type": "init",
+            "weight": 87.4,
+            "fat": 21.3,
+            "muscle": 37.7,
+            "belly": 98,
+            "chest": 97,
+            "shoulder": 50,
+            "vfl": 8.6
+        },
+        {
+            "type": "min",
+            "weight": 87.4,
+            "fat": 21.3,
+            "muscle": 37.7,
+            "belly": 98,
+            "chest": 97,
+            "shoulder": 50,
+            "vfl": 8.6
+        },
+        {
+            "type": "goal",
+            "weight": 87.4,
+            "fat": 21.3,
+            "muscle": 37.7,
+            "belly": 98,
+            "chest": 97,
+            "shoulder": 50,
+            "vfl": 8.6
+        },
+        {
+            "type": "challenge",
+            "weight": 87.4,
+            "fat": 21.3,
+            "muscle": 37.7,
+            "belly": 98,
+            "chest": 97,
+            "shoulder": 50,
+            "vfl": 8.6
+        }
+    ]
+}
