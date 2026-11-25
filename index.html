@@ -8,8 +8,87 @@
     <script src="js/app.js" defer></script>
 </head>
 <body>
-    <header></header>
-    <main></main>
-    <footer></footer>
+    <div class="page">
+        <header class="topbar">
+            <h1>Body-Shaper</h1>
+        </header>
+        <main>
+            <form id="dailyForm" class="daily-form">
+                <h2>아침에 기록하기</h2>
+                <div class="input-item">
+                    <label>기상시각</label>
+                    <input id="wakeup" type="text">
+                </div>
+                <div class="input-item">
+                    <label>체중</label>
+                    <input id="weight" type="text">
+                </div>
+                <div class="input-item">
+                    <label>체지방량</label>
+                    <input id="fat" type="text">
+                </div>
+                <div class="input-item">
+                    <label>골격근량</label>
+                    <input id="muscle" type="text">
+                </div>
+                <div class="input-item">
+                    <label>배둘레</label>
+                    <input id="belly" type="text">
+                </div>
+                <div class="input-item">
+                    <label>가슴둘레</label>
+                    <input id="chest" type="text">
+                </div>
+                <div class="input-item">
+                    <label>어깨둘레</label>
+                    <input id="shoulder" type="text">
+                </div>
+                <div class="input-item">
+                    <label>내장지방지수</label>
+                    <input id="vfl" type="text">
+                </div>
+                <h2>저녁에 기록하기</h2>
+                <div class="input-item">
+                    <label>섭취한 단백질 양</label>
+                    <input id="protein" type="text">
+                </div>
+                <div class="input-item">
+                    <label>유산소운동</label>
+                    <input id="aerobic" type="checkbox">
+                </div>
+                <div class="input-item">
+                    <label>근력운동</label>
+                    <input id="exercise" type="checkbox">
+                </div>
+                <div class="input-item">
+                    <label>야식/음주</label>
+                    <input id="snack" type="checkbox">
+                </div>
+                <div class="input-item">
+                    <label>취침시각</label>
+                    <input id="sleep" type="text">
+                </div>
+                <button type="submit" class="save-btn" id="saveBtn">저장</button>
+            </form>
+        </main>
+        <nav class="bottom-nav">
+            <a href="#inputData" class="active">
+                <img src="resources/icon/input.png" class="nav-icon white-icon">
+                <span class="nav-title">기록하기</span>
+            </a>
+            <a href="#dashboard">
+                <img src="resources/icon/graph.png" class="nav-icon white-icon">
+                <span class="nav-title">대시보드</span>
+            </a>
+            <a href="#bodyRecords">
+                <img src="resources/icon/bicycle.png" class="nav-icon little-bigger white-icon">
+                <span class="nav-title">체형기록</span>
+            </a>
+            <a href="#exerciseRecords">
+                <img src="resources/icon/muscle.png" class="nav-icon white-icon">
+                <span class="nav-title">운동기록</span>
+            </a>
+        </nav>
+    </div>
 </body>
 </html>
